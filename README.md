@@ -41,3 +41,5 @@ const MyComponent = props => (...)
 
 export default status(MyComponent);
 ```
+
+For better understanding run `npm start` in `/examples` folder
