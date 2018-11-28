@@ -1,0 +1,33 @@
+{
+  "name": "react-view-status",
+  "version": "1.0.0",
+  "description": "State management without hassle.",
+  "author": "Petr Hanak <jsem@petr-hanak.cz>",
+  "main": "lib/react-view-status.js",
+  "module": "lib/react-view-status.es.js",
+  "scripts": {
+    "build": "rollup -c",
+    "cleanup": "prettier **/*.{js,json,md} --write"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "prettier": "^1.15.2",
+    "react": "^16.0.0",
+    "rollup": "^0.67.3",
+    "rollup-plugin-babel": "^4.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrhanak/react-view-status.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petrhanak/react-view-status/issues"
+  },
+  "homepage": "https://github.com/petrhanak/react-view-status#readme"
+}
