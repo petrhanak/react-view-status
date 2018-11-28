@@ -1,5 +1,7 @@
 # react-view-status
 
+General error handling and data loading for fast prototyping, internal admin tool or simple email subscribtion where you don't need rocket science... because doing it right takes some time. 
+
 ## View lifecycle
 
 `uninitialized`: No data to display, only loader will be present.
@@ -15,7 +17,7 @@ successful sign up, filled form, component failed loading.
 
 First provide config for hoc, all components are optional.
 
-```
+```js
 // status.js
 import withStatus from 'react-view-lifecycle'
 
@@ -30,9 +32,9 @@ export default withStatus({
 })
 ```
 
-Then wrap component showing data with this hoc and pass `status`, `error` and `data` in props from parent component.
+Then wrap component showing data with this hoc and pass `status`, `error` and `data` in props.
 
-```
+```js
 import status from './status'
 
 const MyComponent = props => (...)
