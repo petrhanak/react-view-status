@@ -25,6 +25,14 @@ const withStatus = (config = {}) => ComposedComponent => props => {
       </Fragment>
     );
 
+  if (props.error && props.status === VIEW_STATUS.default && ErrorComponent)
+    return (
+      <Fragment>
+        <ErrorComponent {...props} />
+        <ComposedComponent {...props} />
+      </Fragment>
+    );
+
   return <ComposedComponent {...props} />;
 };
 

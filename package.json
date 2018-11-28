@@ -1,6 +1,6 @@
 {
   "name": "react-view-status",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "State management without hassle.",
   "author": "Petr Hanak <jsem@petr-hanak.cz>",
   "main": "lib/react-view-status.js",
